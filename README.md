@@ -43,7 +43,7 @@ pnpm install @pansy/seal
 ```ts
 import { Seal } from '@pansy/seal';
 
-const seal = new Seal({ ... });
+const seal = new Seal(element, { ... });
 
 // 如果需要修改印章参数，请调用
 seal.update({ ... });
@@ -59,6 +59,8 @@ seal.destroy();
 <img src="https://cdn.jsdelivr.net/gh/wangxingkang/pictures@latest/imgs/seal.png">
 
 ## 🧑‍💻 API
+### element 挂载的DOM元素
+### options 配置
 
 |属性|说明|类型|默认值|
 |---|---|---|---|
